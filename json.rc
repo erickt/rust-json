@@ -1,0 +1,8 @@
+#[link(name = "json",
+       vers = "0.1",
+       uuid = "0c12aa90-1708-4c2d-b9e2-a358d374ce44")];
+#[crate_type = "lib"];
+
+extern mod std;
+use std::sort;
+use std::serialization;
